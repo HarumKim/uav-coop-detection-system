@@ -3,8 +3,8 @@
 
 This repository features a **cooperative multi-UAV system** designed for **autonomous fire detection, mapping, and precision inspection**. By leveraging **computer vision** and **coordinated navigation**, the system automates the workflow of identifying fire hazards across large areas with style and efficiency.
 
-<p align="left">
-  <img src="https://github.com/user-attachments/assets/d8bbd5e2-99c9-4e28-9a49-46820866a1e4" width="500">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d8bbd5e2-99c9-4e28-9a49-46820866a1e4" width="600">
 </p>
 
 

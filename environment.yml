@@ -1,0 +1,25 @@
+name: tello_drone
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2023.01.10=haa95532_0
+  - certifi=2022.12.7=py37haa95532_0
+  - openssl=1.1.1t=h2bbff1b_0
+  - pip=22.3.1=py37haa95532_0
+  - python=3.7.16=h6244533_0
+  - setuptools=65.6.3=py37haa95532_0
+  - sqlite=3.40.1=h2bbff1b_0
+  - vc=14.2=h21ff451_1
+  - vs2015_runtime=14.27.29016=h5e58377_2
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - wincertstore=0.2=py37haa95532_2
+  - pip:
+      - imageio==2.25.1
+      - myqr==2.3.1
+      - netaddr==0.8.0
+      - netifaces==0.11.0
+      - numpy==1.21.6
+      - opencv-python==4.7.0.68
+      - pillow==9.4.0
+      - robomaster==0.1.1.68
+prefix: C:\Users\goliv\anaconda3\envs\tello_drone

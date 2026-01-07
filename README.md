@@ -60,7 +60,30 @@ This project uses **Conda** for environment management to ensure dependency stab
 # Create the environment from the YAML file
 conda env create -f tello_drone.yaml
 
-
-
 # Activate the environment
 conda activate tello_drone
+```
+
+### 2. Drone Connection Protocol
+
+The system supports **two connection modes**, depending on whether you want to run the **full cooperative mission** or test each UAV independently.
+
+#### 🔄 Automatic Connection (Recommended)
+
+Run the following script:
+
+```bash
+python connection_drones.py
+```
+
+## 🎥 Final Demonstration
+
+The following videos showcase the **cooperative UAV fire detection system** in action, highlighting the sequential workflow between both drones.
+
+- **Drone 1 | Scout – Fire Detection & Mapping**  
+  Autonomous grid navigation, real-time fire detection, and coordinate logging.  
+  🔗 [Watch Demo](https://tecmx-my.sharepoint.com/:v:/g/personal/a00836962_tec_mx/IQBRRjdpmKHFS5h7zM3pfhooAWF2SZ7QZbJd2dE3OB-iSyU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Wnxxlv)
+
+- **Drone 2 | Inspector – Targeted Inspection**  
+  Precision navigation, visual servoing, and high-altitude fire inspection using logged coordinates.  
+  🔗 [Watch Demo](https://tecmx-my.sharepoint.com/:v:/g/personal/a00836962_tec_mx/IQDF9RkXAnMkTIokEMubxzl5ATMxyVx_aZqyFX2n-Rad2Gs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=B3eWa3)

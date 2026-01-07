@@ -54,14 +54,11 @@ The system uses a **dual-drone architecture**, where UAVs operate sequentially t
 
 ### 1. Environment Setup
 
-This project uses **Conda** for environment management to ensure dependency stability.
+This project uses **Conda** to automatically install all required system and Python dependencies.
 
 ```bash
-# Create the environment from the YAML file
+# Create the environment and install dependencies from the YAML file
 conda env create -f tello_drone.yaml
-
-# Activate the environment
-conda activate tello_drone
 ```
 
 ### 2. Drone Connection Protocol
